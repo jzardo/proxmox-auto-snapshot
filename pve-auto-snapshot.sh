@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### Verys Simple Auto Snapshot for Proxmox
+### Very Simple Auto Snapshot for Proxmox
 ### Version 0.1 23/03/2022
 
 maxsnapshots=8
