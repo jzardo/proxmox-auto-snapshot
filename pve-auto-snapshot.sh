@@ -3,6 +3,9 @@
 ### Very Simple Auto Snapshot for Proxmox
 ### Version 0.1 23/03/2022
 
+# Max number of snapshots to keep.
+# If cron is set to run each 6 hours and maxsnapshots to 8 then you will keep the last 48 hours of snapshots
+
 maxsnapshots=8
 
 # Create VM ID's list to loop
