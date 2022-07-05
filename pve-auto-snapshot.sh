@@ -23,6 +23,7 @@ while read lista; do
    nome="auto-snap-$vmid"-`date +"%Y%m%d%H%M%S"`
    qm snapshot $vmid $nome
    echo "Criando Snapshot Snapshot $nome" >> /var/log/proxmox-auto-snapshots.log
+   sleep 10
 
    # Old Snapshots Deletion
 
@@ -32,6 +33,7 @@ while read lista; do
       del=`qm listsnapshot $vmid | head -1 | cut -f 2 -d " "`
       qm delsnapshot $vmid $del
       echo "Execluindo Snapshot $del" >> /var/log/proxmox-auto-snapshots.log
+      sleep 10
    else
       echo "There aren't old snapshots to delete"
    fi
