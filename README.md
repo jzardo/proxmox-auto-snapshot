@@ -2,7 +2,7 @@
 
 Simple automatic snapshots for Proxmox.
 
-This is a very simple but useful script I did for Proxmox snapshot automation. Hope it can help someone as it already did many times for me and my customrs.
+This is a very simple but useful script I did for Proxmox snapshot automation. Hope it can help someone as it already did many times for me and my customers.
 
 If you want something more sofisticated take a look at below projetcs:
 ```
